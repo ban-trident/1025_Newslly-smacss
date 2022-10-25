@@ -1,1 +1,72 @@
 @charset "utf-8";
+
+/* ベース
+---------------------------------*/
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 1.7;
+    color: #888888;
+    letter-spacing: 0;
+    background-color: #fff;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 14px;
+}
+
+/* レイアウト
+---------------------------------*/
+.l-inner{
+    width: 80%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.l-py6{
+    padding: 60px 0;
+}
+
+/*color*/
+.l-bg-gray{
+    background-color: #F6F6F6;
+}
+
+/* header
+---------------------------------*/
+h1 img{
+    display: block;
+    margin: 30px auto 0;
+}
+
+
+/* main
+---------------------------------*/
+
+/* footer
+---------------------------------*/
+footer{
+    background-color: #202124;
+    padding: 100px 0 40px;
+    color: #BBBBBB;
+}
+
+/* card
+---------------------------------*/
+
+/* button
+---------------------------------*/
