@@ -49,8 +49,17 @@ p {
     margin-bottom: 60px;
 }
 
+.l-mb4{
+    margin-bottom: 40px;
+}
+
 .l-mt3{
     margin-top: 30px;
+}
+
+.l-bb-gray{
+    border-bottom: 1px solid #DDDDDD;
+    padding-bottom: 10px;
 }
 
 /*flexbox*/
@@ -154,10 +163,14 @@ footer{
 .btn{
     display: block;
     font-size: 12px;
-    width: 51.6%;
+    width: 160px;
     background-color:#FA6980;
     color: #fff;
     padding: 14px 43px;
     text-align: center;
     margin: 25px 0 auto auto;
+}
+
+.btn-bg-black{
+    background: #202124;
 }
