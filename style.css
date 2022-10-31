@@ -49,6 +49,10 @@ p {
     margin-bottom: 60px;
 }
 
+.l-mt3{
+    margin-top: 30px;
+}
+
 /*flexbox*/
 .l-flex{
     display: flex;
@@ -130,15 +134,30 @@ footer{
 
 /* card
 ---------------------------------*/
+.card{
+    background-color: #fff;
+}
+
+.cardinner{
+    padding: 35px;
+}
+
+.card-title{
+    color: #202124;
+    font-size: 18px;
+    font-weight:bold;
+    margin-bottom: 15px;
+}
 
 /* button
 ---------------------------------*/
 .btn{
     display: block;
-    width: 160px;
+    font-size: 12px;
+    width: 51.6%;
     background-color:#FA6980;
     color: #fff;
     padding: 14px 43px;
     text-align: center;
-    margin: auto 0 auto auto;
+    margin: 25px 0 auto auto;
 }
